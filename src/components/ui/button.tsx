@@ -5,7 +5,7 @@ const buttonVariants = tv({
 	base: [
 		"inline-flex items-center justify-center gap-2",
 		"font-[family-name:var(--font-jetbrains-mono)]",
-		"cursor-pointer transition-opacity hover:opacity-80",
+		"enabled:cursor-pointer transition-opacity enabled:hover:opacity-80",
 		"disabled:opacity-50 disabled:cursor-not-allowed",
 	],
 	variants: {
